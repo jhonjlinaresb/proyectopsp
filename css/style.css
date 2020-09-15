@@ -1,5 +1,5 @@
 body{
-    background-color: black;
+    background: black;
 }
 
 
@@ -247,12 +247,33 @@ body{
 .boxHijo2{
     background: transparent;
     height: 20px;
-    width: 100px;
+    width: 120px;
     position: absolute;
     left: 8em;
     top: 0.3em;
     color: white;
+}
+
+.bajar{
+    background: transparent;
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    border-radius: 100%;
     border: white solid 0.2px;
+    top: 0.1em;
+    left: 0.2em;
+}
+
+.subir{
+    background: transparent;
+    height: 15px;
+    width: 15px;
+    position: absolute;
+    border-radius: 100%;
+    border: white solid 0.2px;
+    top: 0.1em;
+    right: 0.2em;
 }
 
 .boxHijo3{
@@ -305,51 +326,51 @@ background: gray;
     height: 120px;
     width: 120px;
     border-radius: 100%;
-    border: black solid 0.5px;
+    border: white solid 1px;
     position: absolute;
     top: 10.43em;
     right: 7.2em;
 }
 
 .ring1{
-    background: blue;
+    background: #2c2c2c;
     height: 40px;
     width: 40px;
     position: absolute;
-    border: black solid 0.3px;
+    border: white solid 0.5px;
     border-radius: 100%;
     top: -1em;
     left: 2.6em;
 }
 
 .ring2{
-    background: blue;
+    background: #2c2c2c;
     height: 40px;
     width: 40px;
     position: absolute;
-    border: black solid 0.3px;
+    border: white solid 0.5px;
     border-radius: 100%;
     bottom: -1em;
     left: 2.6em;
 }
 
 .ring3{
-    background: blue;
+    background: #2c2c2c;
     height: 40px;
     width: 40px;
     position: absolute;
-    border: black solid 0.3px;
+    border: white solid 0.5px;
     border-radius: 100%;
     top: 2.3em;
     left: 6em;
 }
 
 .ring4{
-    background: blue;
+    background: #2c2c2c;
     height: 40px;
     width: 40px;
     position: absolute;
-    border: black solid 0.3px;
+    border: white solid 0.5px;
     border-radius: 100%;
     top: 2.3em;
     right: 6em;
@@ -374,26 +395,26 @@ background: gray;
 #fondo{
     height: 346px;
     width: 710px;
-    position: fixed;
-    left: 20em;
-    top: 2.7em;
+    position: absolute;
+    left: 0.1em;
+    top: 0.13em;
     border-radius: 1%;
 }
 
 #logito{
-    height: 30px;
-    width: 30px;
+    height: 55px;
+    width: 75px;
     position: absolute;
     left: -0.18em;
-    top: -0.2em;
+    bottom: -1.2em;
 }
 
 #sony{
-    height: 120px;
-    width: 100px;
-    position: fixed;
-    top: 1.9em;
-    right: 10em;
+    height: 15px;
+    width: 80px;
+    position: absolute;
+    top: 0.3em;
+    right: -1em;
 }
 
 #psp{
