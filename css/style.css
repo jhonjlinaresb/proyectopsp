@@ -1,5 +1,6 @@
 body{
-    background: black;
+    background: #bfbfbf;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -13,7 +14,7 @@ body{
 }
 
 .box {
-    background: black;
+    background: #bfbfbf;
     height: 480px;
     padding: 5px;
     color: white;
@@ -28,7 +29,7 @@ body{
     position: absolute;
     left: 4.5em;
     color: white;
-    border: blanchedalmond solid 1px;
+    border: #1c1c1c solid 5px;
     border-radius: 50% 0% 0 50%;
     text-align: center;
 }
@@ -44,18 +45,17 @@ body{
     left: 5.3em;
 }
 
+/*Inician Flechas: top, bottom, right, lefth*/
 .box1b{
-    background: linear-gradient(70deg, #0f0f0f, #18171c);
+    background: linear-gradient(90deg, #0f0f0f, #2c2c2c, #1c1c1c);
     height: 120px;
     width: 120px;
     border-radius: 100%;
-    border: white solid 1px;
+    border: #2c2c2c solid 3px;
     position: absolute;
     top: 7.5em;
     left: 3em;
 }
-
-/*Inician Flechas: top, bottom, right, lefth*/
 
 .arrowcubetop{
     background: black;
@@ -158,7 +158,7 @@ body{
     background: black;
     height: 15px;
     width: 15px;
-    border: #f4f4f4 solid 0.5px;
+    border:#2c2c2c solid 0.5px;
     border-radius: 100%;
     position: absolute;
     top: 0.2em;
@@ -169,19 +169,20 @@ body{
     background: black;
     height: 15px;
     width: 15px;
-    border: #f4f4f4 solid 0.5px;
+    border: #2c2c2c solid 0.5px;
     border-radius: 100%;
     position: absolute;
+    top: 1em;
 }
 
 .point3{
     background: black;
     height: 15px;
     width: 15px;
-    border: #f4f4f4 solid 0.5px;
+    border: #2c2c2c solid 0.5px;
     border-radius: 100%;
     position: absolute;
-    bottom: 0.13em;
+    bottom: 0.23em;
     right: 1.23em;
 }
 
@@ -189,10 +190,10 @@ body{
     background: black;
     height: 15px;
     width: 15px;
-    border: #f4f4f4 solid 0.5px;
+    border: #2c2c2c solid 0.5px;
     border-radius: 100%;
     position: absolute;
-    top: 1.1em;
+    top: 1em;
     right: 0.43em;
 }
 
@@ -202,18 +203,18 @@ body{
 
 /*Div Centro Pantalla, volumen, PSP etc*/
 .box2{
-    background: linear-gradient(70deg, black, grey);
+    background: linear-gradient(70deg, #2c2c2c, #0f0f0f, #1c1c1c, black);
     height: 400px;
     width: 793px;
     position: absolute;
     left: 17.4em;
     color: black;
-    border: white solid 1px;
+    border: #1c1c1c solid 5px;
     text-align: center;
 }
 
 .box2a{
-    background: rgba(25, 152, 202, 0.897);
+    background: linear-gradient(90deg, #251274, red, green);
     height: 350px;
     width: 715px;
     position: absolute;
@@ -221,18 +222,19 @@ body{
     left: 2.5em;
     color: white;
     border-radius: 1% 1% 1% 1%;
+    border: black solid 0.5px;
     text-align: center;
 }
 
 .boxPadre{
-    background: linear-gradient(90deg, black, #2c2c2c, #1c1c1c);
-    height: 35px;
+    background: linear-gradient(180deg, grey,  #0f0f0f, #2c2c2c, black);
+    height: 33px;
     width: 785px;
     position: absolute;
     top: 22.6em;
-    left: 0.2em;
+    left: 0.18em;
     border-radius: 5% 5% 40% 40%;
-    border: #2c2c2c solid 0.7px;
+    border: #cccccc solid 2px;
 }
 
 .boxHijo1{
@@ -241,7 +243,7 @@ body{
     width: 20px;
     position: absolute;
     left: 3em;
-    top: 0.3em;
+    top: 0.18em;
 }
 
 .boxHijo2{
@@ -286,22 +288,47 @@ body{
 }
 
 .boxHijo4{
-    background: gray;
+    background: black;
     height: 20px;
-    width: 65px;
+    width: 70px;
     position: absolute;
-    left: 32em;
-    top: 0.18em;
+    left: 31em;
+    top: 0.2em;
     border: white solid 0.2px;
+    text-decoration: none;
+    padding: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
+    border-radius: 15px;
+    border: white solid 0.5px;
 }
+.boxHijo4:hover{
+  opacity: 60%;
+  text-decoration: none;
+}
+
 .boxHijo5{
-background: gray;
+    background: black;
     height: 20px;
-    width: 65px;
+    width: 70px;
     position: absolute;
+    color: white;
     left: 37em;
-    top: 0.18em;
+    top: 0.2em;
     border: white solid 0.2px;
+    border: white solid 0.2px;
+    text-decoration: none;
+    padding: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
+    border-radius: 15px;
+    border: white solid 0.5px;
+}
+.boxHijo5:hover{
+  opacity: 60%;
+  text-decoration: none;
 }
 
 /*Finaliza el Div Centro*/
@@ -309,74 +336,75 @@ background: gray;
 /*Empieza el Div 3 Botones y Logo*/
 
 .box3{
-    background: linear-gradient(70deg, black, grey);
+    background: linear-gradient(70deg, #2c2c2c, #0f0f0f, #1c1c1c, black);
     height: 400px;
     width: 200px;
     position: absolute;
     left: 67.3em;
     color: white;
-    border: white solid 1px;
+    border:#1c1c1c solid 5px;
     border-radius: 0 50% 50% 0;
     text-align: center;
 }
 
 /*Inician los anillos Top Bottom Right Left*/
 .box3a{
-    background: linear-gradient(70deg, black, grey);
+    background: linear-gradient(90deg, black, #1c1c1c, #2c2c2c);
     height: 120px;
     width: 120px;
     border-radius: 100%;
-    border: white solid 1px;
+    border:  #2c2c2c solid 3px;
     position: absolute;
     top: 10.43em;
     right: 7.2em;
 }
 
 .ring1{
-    background: #2c2c2c;
+    background: #0a0a0a;
     height: 40px;
     width: 40px;
     position: absolute;
-    border: white solid 0.5px;
+    border: #1c1c1c solid 2px;
     border-radius: 100%;
     top: -1em;
     left: 2.6em;
 }
 
 .ring2{
-    background: #2c2c2c;
+    background: #0a0a0a;
     height: 40px;
     width: 40px;
     position: absolute;
-    border: white solid 0.5px;
+    border: #1c1c1c solid 2px;
     border-radius: 100%;
     bottom: -1em;
     left: 2.6em;
 }
 
 .ring3{
-    background: #2c2c2c;
+    background: #0a0a0a;
     height: 40px;
     width: 40px;
     position: absolute;
-    border: white solid 0.5px;
+    border: #1c1c1c solid 2px;
     border-radius: 100%;
     top: 2.3em;
     left: 6em;
 }
 
 .ring4{
-    background: #2c2c2c;
+    background: #0a0a0a;
     height: 40px;
     width: 40px;
     position: absolute;
-    border: white solid 0.5px;
+    border: #1c1c1c solid 2px;
     border-radius: 100%;
     top: 2.3em;
     right: 6em;
 }
 
 /*Finalizan los Anillos Top Bottom Right Left*/
+
 .box3b{
     background: transparent;
     height: 40px;
