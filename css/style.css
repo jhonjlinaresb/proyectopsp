@@ -22,7 +22,7 @@ body{
 /*Div Primero Joystick, Arrows, HeadSpeakers*/
 
 .box1{
-    background: linear-gradient(70deg, black, grey);
+    background: linear-gradient(70deg, #2c2c2c, #0f0f0f, #1c1c1c, black);
     height: 400px;
     width: 200px;
     position: absolute;
@@ -34,22 +34,22 @@ body{
 }
 
 .box1a{
-    background: repeating-linear-gradient(-45deg, black, black 1px, black 1px, grey 1.3px);
+    background: repeating-linear-gradient(-45deg, black, #1c1c1c 1.2px, black 1px, #0f0f0f 2px);
     height: 70px;
     width: 70px;
     border-radius: 100%;
-    border: darkslategray solid 0.5px;
+    border: #e3f2fd solid 2px;
     position: absolute;
     top: 19em;
     left: 5.3em;
 }
 
 .box1b{
-    background: darkslategrey;
+    background: linear-gradient(70deg, #0f0f0f, #18171c);
     height: 120px;
     width: 120px;
     border-radius: 100%;
-    border: darkslategrey solid 0.5px;
+    border: white solid 1px;
     position: absolute;
     top: 7.5em;
     left: 3em;
@@ -61,7 +61,7 @@ body{
     background: black;
     height: 1.5em;
     width: 1.5em;
-    top: 2.99em;
+    top: 3em;
     left: 2.9em;
     position: absolute;
     margin-top: -2em;
@@ -103,7 +103,7 @@ body{
     height: 1.5em;
     width: 1.5em;
     top: 5.09em;
-    right: 1.16em;
+    right: 1.1em;
     position: absolute;
     margin-top: -2em;
 }
@@ -114,7 +114,7 @@ body{
     border-bottom: 0.76em solid transparent;
     border-right: 0.9em solid black;
     top: 5.09em;
-    right: 2.7em;
+    right: 2.6em;
     position: absolute;
     margin-top: -2em;
 }
@@ -148,7 +148,7 @@ body{
     background: transparent;
     height: 50px;
     width: 50px;
-    border: darkslategrey solid 0.5px;
+    border: transparent;
     position: absolute;
     top: 3em;
     left: 8em;
@@ -158,7 +158,7 @@ body{
     background: black;
     height: 15px;
     width: 15px;
-    border: grey solid 0.4px;
+    border: #f4f4f4 solid 0.5px;
     border-radius: 100%;
     position: absolute;
     top: 0.2em;
@@ -169,7 +169,7 @@ body{
     background: black;
     height: 15px;
     width: 15px;
-    border: grey solid 0.4px;
+    border: #f4f4f4 solid 0.5px;
     border-radius: 100%;
     position: absolute;
 }
@@ -178,7 +178,7 @@ body{
     background: black;
     height: 15px;
     width: 15px;
-    border: grey solid 0.4px;
+    border: #f4f4f4 solid 0.5px;
     border-radius: 100%;
     position: absolute;
     bottom: 0.13em;
@@ -189,7 +189,7 @@ body{
     background: black;
     height: 15px;
     width: 15px;
-    border: grey solid 0.4px;
+    border: #f4f4f4 solid 0.5px;
     border-radius: 100%;
     position: absolute;
     top: 1.1em;
@@ -225,44 +225,43 @@ body{
 }
 
 .boxPadre{
-    background: linear-gradient(90deg, black, grey);
+    background: linear-gradient(90deg, black, #2c2c2c, #1c1c1c);
     height: 35px;
     width: 785px;
     position: absolute;
     top: 22.6em;
     left: 0.2em;
     border-radius: 5% 5% 40% 40%;
-    border: black solid 0.3px;
+    border: #2c2c2c solid 0.7px;
 }
 
 .boxHijo1{
-    background: green;
+    background: transparent;
     height: 20px;
     width: 20px;
     position: absolute;
     left: 3em;
     top: 0.3em;
-    border: blue solid 0.2px;
 }
 
 .boxHijo2{
-    background: pink;
+    background: transparent;
     height: 20px;
     width: 100px;
     position: absolute;
     left: 8em;
     top: 0.3em;
-    border: purple solid 0.2px;
+    color: white;
+    border: white solid 0.2px;
 }
 
 .boxHijo3{
-    background: black;
+    background: transparent;
     height: 30px;
-    width: 85px;
+    width: 100px;
     position: absolute;
     left: 22em;
     top: 0.18em;
-    border: white solid 0.2px;
 }
 
 .boxHijo4{
@@ -358,10 +357,9 @@ background: gray;
 
 /*Finalizan los Anillos Top Bottom Right Left*/
 .box3b{
-    background: red;
+    background: transparent;
     height: 40px;
     width: 70px;
-    border: darkslategrey solid 0.5px;
     position: absolute;
     top: 4.7em;
     right: 11em;
@@ -383,11 +381,27 @@ background: gray;
 }
 
 #logito{
-    height: 25px;
-    width: 25px;
+    height: 30px;
+    width: 30px;
     position: absolute;
     left: -0.18em;
     top: -0.2em;
+}
+
+#sony{
+    height: 120px;
+    width: 100px;
+    position: fixed;
+    top: 1.9em;
+    right: 10em;
+}
+
+#psp{
+    height: 110px;
+    width: 100px;
+    position: absolute;
+    bottom: -2.5em;
+    left: -0.4em;
 }
 
 /*Finalizan los ID*/
